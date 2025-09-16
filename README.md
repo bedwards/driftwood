@@ -6,6 +6,8 @@ A sophisticated local web application that orchestrates AI-generated philosophic
 
 This application creates automated conversations between two philosopher-author pairings on any topic you choose. Each philosopher's ideas are translated through a specific author's literary voice, making timeless wisdom accessible through familiar narrative styles.
 
+[Implementation details](implementation.md)
+
 ## 🚀 Quick Start
 
 1. **Download all files** to a new directory:
