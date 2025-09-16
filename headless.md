@@ -1,5 +1,11 @@
 # Mac Studio headless notes
 
+## Display emulator
+
+Ensure your remote connection is smooth and not choppy. Mac Studio maximizes use of GPU for both graphics and AI/LLM/ML inference.
+
+[Display emulator](https://www.amazon.com/Headless-Display-Emulator-Headless-1920x1080-Generation/dp/B06XT1Z9TF?th=1)
+
 ## Settings
 
 Disable FileVault: This is non-negotiable for a truly headless server. If enabled, the Mac will wait for a password at the login screen before it can decrypt the drive, which you won't be able to enter without a physical keyboard.
@@ -9,8 +15,6 @@ Enable Automatic Login: This prevents the Mac from stopping at the user selectio
 Enable Screen Sharing (or Remote Management): This must be done before you unplug the physical monitor. You need to enable this service in the Sharing settings so you have a way to remotely connect to the Mac Studio once it's running.
 
 Configure Power Settings: In System Settings > Energy Saver, enable the option to "Start up automatically after a power failure." This ensures your Mac Studio will restart and be accessible again if the power goes out.
-
-Use a Headless Display Emulator: As mentioned above, this is the final piece of the puzzle to ensure your remote connection is smooth and not choppy.
 
 ## USB-C connection
 
